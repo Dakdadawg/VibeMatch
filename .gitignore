@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# VibeMatch-specific files
+data/raw/
+*.tar
+*.pem
+
+# Unused local processed datasets
+data/processed/english_songs.csv
+data/processed/english_songs.parquet
+data/processed/artist_song_counts.csv
